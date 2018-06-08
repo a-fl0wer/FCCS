@@ -27,7 +27,7 @@ rectangles along with their respective labels.
 cd ~
 git clone https://github.com/a-fl0wer/FCCS.git
 ```
-4. Move the modified version of darknet.py to darknet/python replacing the
+4. Copy the modified version of darknet.py to darknet/python replacing the
 original one
 ```
 cp ~/FCCS/darknet.py ~/darknet/python
