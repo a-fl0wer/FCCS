@@ -15,21 +15,29 @@ functionality, but if the scan detects a fire or smoke object in the photograph
 then the device additionally sends the photograph and its detection rectangles
 along with their respective labels.
 
+
 ---
 
-**Requirements:**
+**Installation:**
 
-1. OpenCV for python2
-2. Darknet: Follow the installation instructions from https://pjreddie.com/darknet/install/
-3. Copy this modified version of darknet.py to darknet/python and replace the
+1. Install OpenCV for python2
+2. Install Darknet following the installation instructions from https://pjreddie.com/darknet/install/ (assuming you'll clone it at /home/$USER)
+3. Clone FCCS
+```
+cd ~
+git clone https://github.com/a-fl0wer/FCCS.git
+```
+4. Copy the modified version of darknet.py to darknet/python replacing the
 original one
-4. Create a soft link on darknet/python pointing at darknet/data directory (or
-wherever your data directory is)
 ```
-cd *Installation path*/darknet/python
-ln -s darknet/data .
+mv ~/FCCS/darknet.py ~/darknet/python
 ```
-5. Run
+5. Create a soft link on darknet/python pointing at darknet/data directory (or
+wherever your data directory is at)
+```
+ln -s ~/darknet/data ~/darknet/python
+```
+6. Run darknet.py
 ```
 python darknet.py
 ```
