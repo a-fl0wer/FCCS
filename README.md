@@ -2,7 +2,7 @@ Fire Command & Control Systems
 ===
 
 
-Description of darknet.py:
+Description of darknet.py
 ---
 
 
