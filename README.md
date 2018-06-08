@@ -2,11 +2,11 @@ Fire Command & Control Systems
 ===
 
 
-Description of darknet.py
+Description of survbot.py
 ---
 
 
-The purpose of this modified version of the original darknet.py (pjreddie) is to
+The purpose of survbot.py is to
 periodically take photos for analysis of the forest while communicating the
 results to the FCCS Database. In each iteration the analysis scans the photograph using
 the YOLO CNN to detect any possible fire and/or smoke in the vicinity.
@@ -37,7 +37,7 @@ wherever your data directory is at)
 ```
 ln -s ~/darknet/data ~/darknet/python
 ```
-6. Run darknet.py
+6. Run survbot.py
 ```
-python darknet.py
+python survbot.py
 ```
