@@ -1,7 +1,11 @@
-FCCS
+Fire Command & Control Systems
 ===
 
-+Description of darknet.py:
+
+Description of darknet.py:
+---
+
+
 The purpose of this modified version of darknet.py is to periodicaly
 photograph and analyse the forest while communicating the results to the FCCS
 Database. Each analysis scans the photograph using the YOLO CNN to detect any
