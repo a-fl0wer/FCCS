@@ -30,7 +30,7 @@ git clone https://github.com/a-fl0wer/FCCS.git
 4. Copy the modified version of darknet.py to darknet/python replacing the
 original one
 ```
-cp ~/FCCS/darknet.py ~/darknet/python
+cp ~/FCCS/survbot.py ~/darknet/python
 ```
 5. Create a soft link on darknet/python pointing at darknet/data directory (or
 wherever your data directory is at)
