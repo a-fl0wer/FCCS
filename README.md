@@ -1,5 +1,3 @@
-![alt text](https://fccs.ml/wp-content/uploads/2017/11/overlay-logo.png)
-
 Forest Command & Control Systems
 ===
 
