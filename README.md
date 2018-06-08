@@ -27,10 +27,10 @@ rectangles along with their respective labels.
 cd ~
 git clone https://github.com/a-fl0wer/FCCS.git
 ```
-4. Copy the modified version of darknet.py to darknet/python replacing the
+4. Move the modified version of darknet.py to darknet/python replacing the
 original one
 ```
-mv ~/FCCS/darknet.py ~/darknet/python
+cp ~/FCCS/darknet.py ~/darknet/python
 ```
 5. Create a soft link on darknet/python pointing at darknet/data directory (or
 wherever your data directory is at)
